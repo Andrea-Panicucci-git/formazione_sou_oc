@@ -1,4 +1,4 @@
-[Track 4] Supporto Openshift 1° Livello:
+# Supporto Openshift 1° Livello:
 ---
 1. **Deployment:** `creare e gestire manifest, deploy app minimal.`
 2. **Certificati:** `Root CA, CSR, firma certificati.`
