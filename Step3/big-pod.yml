@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: big-pod
+  namespace: formazione-oc
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    resources:
+      requests:
+        memory: "20Gi"
+        cpu: "10"
+      limits:
+        memory: "30Gi"
+        cpu: "12"
+
