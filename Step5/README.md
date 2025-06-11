@@ -13,6 +13,7 @@ Questo progetto mostra come creare un Secret in Kubernetes e montarlo come volum
 ---
 ## File inclusi
 **1. secret.yml:** definizione del Secret con username e password codificati in base64.
+
 **2. pod.yml:** definizione del Pod che monta il Secret come volume in /etc/secret-data.
 ---
 ## Come eseguirlo
