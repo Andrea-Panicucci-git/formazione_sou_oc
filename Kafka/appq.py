@@ -5,7 +5,7 @@ producer = KafkaProducer(bootstrap_servers='localhost:9092')
 
 topic = 'foobar'
 
-for i in range(20):
+for i in range(10):
     message = f'Messaggio {i}'
     producer.send(topic, message.encode('utf-8'))
     print(f'Inviato: {message}')
