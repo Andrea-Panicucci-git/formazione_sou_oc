@@ -24,7 +24,7 @@ Questo progetto dimostra la creazione di diversi oggetti Kubernetes (Deployment,
 
 ## Istruzioni
 
-### 1. Applicare le risorse Kubernetes
+### 1. Applicare le risorse Kubernetes e verificare che tutto sia stato creato correttamente
 
 ```bash
 kubectl apply -f deployment.yaml
@@ -33,9 +33,11 @@ kubectl apply -f replicaset.yaml
 kubectl apply -f ingress.yaml
 kubectl apply -f daemonset.yaml
 ```
-### 2. Verificare che tutto sia stato creato correttamente
+```bash
 kubectl get deployments,services,replicasets,ingress,daemonsets -o wide
+```
 ### 3. Visualizzare i pod dell'app web in ambiente di sviluppo
+
 ```bash
 kubectl get pods -l app=web,environment=dev
 ```
