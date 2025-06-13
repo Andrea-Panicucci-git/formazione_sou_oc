@@ -6,9 +6,9 @@ Questo progetto dimostra la creazione di diversi oggetti Kubernetes (Deployment,
 
 ## Struttura del progetto
 
-- **Deployment**: App Flask in ambiente di sviluppo (`environment=dev`), tipo `web`, regione `EU`
+- **Deployment**: App nginx in ambiente di sviluppo (`environment=dev`), tipo `web`, regione `EU`
 - **Service**: LoadBalancer che espone i pod `app=web` e `environment=dev`
-- **ReplicaSet**: Gestisce le repliche del deployment web
+- **ReplicaSet**: Gestite da replicas in Deployment.yml
 - **Ingress**: Instrada il traffico HTTP verso il servizio web tramite un dominio personalizzato `nginx-example.local`
 - **DaemonSet**: App di logging che gira su tutti i nodi, etichettata `app=logging`
 
