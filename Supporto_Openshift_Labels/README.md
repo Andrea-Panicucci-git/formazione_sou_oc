@@ -1,6 +1,6 @@
 # Kubernetes Multi-Environment Deployment Example
 
-Questo progetto dimostra la creazione di diversi oggetti Kubernetes (Deployment, ReplicaSet, Service, Ingress, DaemonSet) per gestire un'applicazione web basata su Flask, organizzata per ambiente, tipo di app e regione geografica.
+Questo progetto dimostra la creazione di diversi oggetti Kubernetes (Deployment, ReplicaSet, Service, Ingress, DaemonSet) per gestire un'applicazione web basata su nginx, organizzata per ambiente, tipo di app e regione geografica.
 
 ---
 
