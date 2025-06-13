@@ -1,4 +1,4 @@
-# Kubernetes Multi-Environment Deployment Example
+# Supporto Openshift Labels:
 
 Questo progetto dimostra la creazione di diversi oggetti Kubernetes (Deployment, ReplicaSet, Service, Ingress, DaemonSet) per gestire un'applicazione web basata su nginx, organizzata per ambiente, tipo di app e regione geografica.
 
