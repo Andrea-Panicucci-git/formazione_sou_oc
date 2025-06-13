@@ -22,11 +22,13 @@ Puoi installare la libreria con:
 ```bash
 pip install kafka-python
 ```
-## Come eseguire
+---
+
+# Come eseguire
 
 Assicurati che Kafka sia in esecuzione su localhost:9092.
 
-### Avvia il consumer:
+### Avvia il consumer:
 
 ```bash
 python consumer.py
