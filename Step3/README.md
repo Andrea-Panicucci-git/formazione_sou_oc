@@ -1,4 +1,4 @@
-# COMIN'UP
+# ..
 Gestione delle Resource Quotas in Kubernetes
 Questo README spiega l'uso delle Resource Quotas in Kubernetes per controllare l'allocazione delle risorse nei namespace.
 
